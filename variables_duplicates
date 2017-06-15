@@ -1,0 +1,23 @@
+loan_amnt - No preprocessing
+term - LE
+int_rate 
+grade - LE
+emp_length - LE
+home_ownership - LE
+annual_inc- No need to change anything
+verification_status - LE
+purpose - LE
+zip_code - need to combine both
+addr_state - need to combine both
+dti - No preprocessing
+delinq_2yrs - Filling of null values needs to be done with 0
+/open_acc - Subtraction with total account - null values are there and needs to be filled 
+pub_rec - null values are there and needs to be filled
+revol_bal - no preprocessing required
+revol_util - fill with mode
+/total_acc - null vlaues are there and needs to be filled
+mths_since_last_major_derog - keeping -1 
+tot_coll_amt - mode
+tot_cur_bal - mode
+total_rev_hi_lim - mode
+loan_status

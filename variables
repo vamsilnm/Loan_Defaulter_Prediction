@@ -1,0 +1,45 @@
+#member_id
+loan_amnt - No preprocessing
+#funded_amnt
+#funded_amnt_inv
+term - need to remove "months"
+#batch_enrolled
+int_rate - No preprocessing required
+grade - No preprocessing required
+#sub_grade - to be obtained after analysis
+#emp_title
+emp_length - missing value must be filled in cells having n/a and also characters other than numbers should be removed and also resulting value should be striped.
+home_ownership -6 {'NONE': 36, 'OWN': 52664, 'MORTGAGE': 265940, 'OTHER': 117, 'RENT': 213668, 'home_ownership': 1, 'ANY': 3}
+annual_inc- No need to change anything
+verification_status - 'Verified', 'Source Verified', 'Not Verified' - 3 classess
+#pymnt_plan
+#desc - 
+purpose 
+#title
+zip_code
+addr_state
+dti
+delinq_2yrs
+#inq_last_6mths
+#mths_since_last_delinq
+#mths_since_last_record - initially we are not taking
+/open_acc
+pub_rec
+revol_bal
+revol_util
+/total_acc
+#initial_list_status - We can include in next time
+#total_rec_int
+#total_rec_late_fee
+#recoveries
+#collection_recovery_fee
+#collections_12_mths_ex_med
+mths_since_last_major_derog - keeping -1 
+#application_type
+#verification_status_joint
+#last_week_pay
+#acc_now_delinq
+tot_coll_amt - mode
+tot_cur_bal - mode
+total_rev_hi_lim - mode
+loan_status
